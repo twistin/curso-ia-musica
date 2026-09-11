@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Audio (pesado — no versionar)
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+
+# Modelos (pesado)
+*.pt
+*.pth
+*.ts
+*.onnx
+*.ckpt
+
+# Datasets
+datasets/
+data/raw/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Obsidian (opcional: descomenta si no quieres versionar la config del workspace)
+# .obsidian/workspace.json

@@ -1,0 +1,11 @@
+# Fase 1-2 — entorno base de audio + ML
+torch
+torchaudio
+librosa
+numpy
+matplotlib
+scikit-learn
+jupyterlab
+soundfile
+# Fase 2 opcional (según lo que use The Sound of AI)
+# tensorflow  # solo si reutilizas material previo tuyo en TF
