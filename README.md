@@ -22,7 +22,7 @@ funcionar también como vault de Obsidian: todas las notas son markdown enlazabl
 | Fase | Foco | Corre en | Entregable |
 |------|------|----------|------------|
 | 0 | Setup y entorno | cualquier máquina | entorno reproducible |
-| 1 | PyTorch + audio (torchaudio, librosa) | CPU | notebook audio → features |
+| 1 | PyTorch + audio (torchaudio, librosa) | CPU | [x] [notebook audio → features](fase-1-pytorch-audio/notebooks/01-features-audio.ipynb) |
 | 2 | Deep learning para audio (The Sound of AI) | CPU/GPU ligera | clasificador de timbres |
 | 3 | ML dentro de SuperCollider (FluCoMa) | CPU | navegación por corpus / concatenativa |
 | 4 | Síntesis neuronal (RAVE + nn.ar) | GPU para entrenar | pieza de live coding con modelo propio |
@@ -39,7 +39,7 @@ entrenamiento propio para el final, sobre Colab o máquina con tarjeta.
 ## Progreso
 
 - [ ] Fase 0 — Setup
-- [ ] Fase 1 — PyTorch + audio
+- [x] Fase 1 — Entregable audio → features (resto de actividades en el README de la fase)
 - [ ] Fase 2 — Deep learning para audio
 - [ ] Fase 3 — FluCoMa en SuperCollider
 - [ ] Fase 4 — RAVE + nn.ar

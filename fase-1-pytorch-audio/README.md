@@ -13,11 +13,11 @@ No es otro curso entero: es situarse en el framework donde vive la investigació
 ## Qué hacer
 - [ ] Blitz de PyTorch (tensores, autograd, un nn.Module mínimo).
 - [ ] Reimplementar en PyTorch puro 1–2 cosas que ya hiciste en fastai/TF.
-- [ ] Cargar un audio y generar: waveform, espectrograma, mel-espectrograma, MFCC.
+- [x] Cargar un audio y generar: waveform, espectrograma, mel-espectrograma, MFCC.
 
 ## Entregable
-Notebook en `notebooks/` que tome un audio propio y saque sus features (guardar como
-`entregable/features.ipynb`). Con eso queda interiorizado el paso audio → tensores.
+- [x] [Notebook de features de audio](notebooks/01-features-audio.ipynb): carga un audio
+  propio y genera waveform, espectrograma, mel-espectrograma y MFCC.
 
 ## Checklist de cierre
 - [ ] Sé mover datos entre CPU/GPU y entiendo autograd.
